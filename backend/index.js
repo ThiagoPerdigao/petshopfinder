@@ -44,7 +44,7 @@ app.post('/api/calculate', (req, res) => {
 
 function getBestPetshop(date, smallDogs, largeDogs) {
   const dayOfWeek = new Date(date).getDay();
-  const isWeekend = dayOfWeek === 0 || dayOfWeek === 6;
+  const isWeekend = dayOfWeek === 5 || dayOfWeek === 6;
 
   let bestPetshop = null;
   let lowestCost = Infinity;
