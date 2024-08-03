@@ -28,7 +28,7 @@ node index.js
 ### Iniciar frontend
 
 ```
-cd frontend
+cd frontend\petshopfinder
 ```
 
 ```
