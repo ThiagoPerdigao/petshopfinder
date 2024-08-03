@@ -53,3 +53,25 @@ O frontend será iniciado na porta 3000 por padrão. Acesse http://localhost:300
 ### Observações
 
 * Como mencionado anteriormente, devido à simplicidade da aplicação, não há necessidade de utilizar um banco de dados. Os preços dos petshops, que são predefinidos, foram introduzidos como dados mock. No entanto, com o uso do Node.js, a adaptação e a escalabilidade do projeto podem ser facilmente implementadas, se necessário.
+
+## Testes
+
+Foram implementados testes unitários utilizando o framework Jest.
+
+### Iniciar testes
+
+```
+cd backend
+```
+
+```
+npm test
+```
+
+### Os testes
+
+Os testes abrangem:
+
+* Cálculo do petshop mais barato para um cão grande em dia de semana.
+* Cálculo do petshop mais barato para um cão pequeno no fim de semana.
+* Consideração da distância em caso de empate no custo.
